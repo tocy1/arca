@@ -19,6 +19,7 @@ $git clone https://github.com/tocy1/arca.git
 $cd arca
 
 $chmod +x docker.sh
+
 2. The python script can only be executed if you have the python runtime
 After installing python on machine execute
 
