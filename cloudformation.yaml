@@ -1,0 +1,11 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-063dd30adbb186909 # Amazon Linux AMI in N.California
+      Tags:
+        - Key: Name
+          Value: My EC2 Instance
+        - Key: Type
+          Value: Worker Instance
