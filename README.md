@@ -9,8 +9,11 @@ $service docker start
 if centos/redhat/fedora
 
 $yum install docker-ce docker-cli
+
 $service docker start
+
 clone this repository by running 
+
 $git clone https://github.com/tocy1/arca.git
 
 $cd arca
